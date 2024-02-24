@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --card: #0a0a0a;
+  --background: #000000;
+  --background-2: #353535;
+  --background-bar: linear-gradient(
+    90deg,
+    rgb(58, 110, 180) 0%,
+    rgb(126, 212, 87) 20%,
+    rgb(248, 212, 73) 40%,
+    rgb(235, 77, 96) 60%,
+    rgb(180, 96, 231) 80%,
+    rgb(178, 34, 34) 100%
+  );
+  --background-bar-2: #fafafa33;
+  --border: #262626;
+  --text-1: #ffffff;
+  --text-2: #737373;
+  --title: #a3a3a3;
+  --hover-btn: #1a1a1a;
+}
+
+@font-face {
+  font-family: "NotoSans-Light";
+  src: url("../public/fonts/NotoSans-Light.ttf");
+}
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: url("../public/fonts/NotoSans-Medium.ttf");
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("../public/fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("../public/fonts/NotoSans-Bold.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  scrollbar-gutter: stable;
+}
+
+body[style] {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto !important;
+  scrollbar-gutter: stable;
+}
